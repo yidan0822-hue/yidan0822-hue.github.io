@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Academic homepage of Yidan Zhu, an undergraduate student in optoelectronic information science and engineering at SUSTech.">
+    <meta name="theme-color" content="#fbfaf8">
+    <title>Yidan Zhu | Optics &amp; Photonics Research</title>
+    <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script>
+      document.documentElement.dataset.theme = localStorage.getItem('yidan-theme') || 'light';
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <nav class="site-nav" aria-label="Primary navigation">
+      <div class="nav-inner">
+        <a class="wordmark" href="#about" aria-label="Yidan Zhu home">YD Z</a>
+        <div class="nav-links">
+          <a href="#research">Research</a>
+          <a href="#publication">Publication</a>
+          <a href="#education">Education</a>
+          <a href="#beyond">Beyond</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to dark mode" title="Toggle color theme">
+          <span class="theme-icon" aria-hidden="true">☼</span>
+        </button>
+      </div>
+    </nav>
+
+    <main id="main-content" class="site-shell">
+      <div class="content-column">
+        <section class="section hero-section" id="about" aria-labelledby="about-title">
+          <div class="hero-grid">
+            <aside class="profile-card" aria-label="Profile summary">
+              <img class="avatar" src="assets/img/profile/yidan-zhu.jpg" alt="Portrait of Yidan Zhu">
+              <p class="eyebrow">Undergraduate researcher</p>
+              <h1>Yidan Zhu</h1>
+              <p class="profile-role">Optoelectronic Information Science and Engineering</p>
+              <p class="profile-school">Southern University of Science and Technology (SUSTech)</p>
+              <div class="profile-contact">
+                <a class="profile-email" href="mailto:12412351@mail.sustech.edu.cn">12412351@mail.sustech.edu.cn</a>
+                <a href="assets/cv/Yidan_Zhu_CV.pdf" target="_blank">CV ↗</a>
+              </div>
+              <div class="profile-interest">
+                <span>Research interests</span>
+                <p>Photonic Crystals · Light–Matter Interactions · Microwave Photonics</p>
+              </div>
+            </aside>
+
+            <div class="hero-copy">
+              <h2 id="about-title">About</h2>
+              <p class="hero-body">I am an undergraduate student at SUSTech. My current research focuses on <strong>photonic-crystal band structures and Dirac-cone phenomena</strong>. Looking ahead, I hope to explore <span class="future-direction">light–matter interactions and microwave photonics</span>.</p>
+              <p class="hero-body">I also have hands-on experience in liquid-crystal experiments and optical sensor fabrication.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="section research-section" id="research" aria-labelledby="research-title">
+          <div class="section-heading">
+            <div>
+              <div class="section-kicker">01 / Research experience</div>
+              <h2 id="research-title">Selected research</h2>
+            </div>
+            <p class="section-intro">My work spans computational photonics, liquid-crystal photoalignment, and hands-on optical device fabrication.</p>
+          </div>
+
+          <article class="research-card research-card-featured">
+            <div class="card-main">
+              <div class="card-meta"><span class="card-number">01</span><span>Jul. 2026–Present</span></div>
+              <h3>Anisotropy Control of Dirac Cones in 3D Photonic-Crystal Slabs</h3>
+              <p class="research-affiliation">Undergraduate Researcher · <a href="https://www.jwma-lab.com" target="_blank" rel="noreferrer">Prof. Jingwen Ma’s Group, SUSTech ↗</a></p>
+              <p class="card-summary">This project examines how material anisotropy governs the formation, migration, tilting, gap opening, and modal coupling of Dirac cones in three-dimensional photonic-crystal slabs.</p>
+              <div class="contribution-block">
+                <p class="contribution-label">My contribution</p>
+                <p>Built FDTD models and Python/LSF automated parameter sweeps for anisotropic dielectric tensors; extracted band structures, located Dirac points, quantified cone tilt, and analyzed two-dimensional momentum-space dispersions and modal fields.</p>
+              </div>
+              <div class="tag-row" aria-label="Research methods">
+                <span>Photonic crystals</span><span>FDTD simulation</span><span>Band-structure analysis</span><span>Dirac cones</span>
+              </div>
+            </div>
+            <figure class="research-concept-figure">
+              <img src="assets/img/research/anisotropy-concept-preview.svg" alt="Conceptual diagram showing a generic triangular-hole photonic-crystal slab with anisotropic directions and a schematic candidate band crossing">
+              <figcaption>Dielectric anisotropy and schematic band crossing.</figcaption>
+            </figure>
+          </article>
+
+          <article class="research-card">
+            <div class="card-main">
+              <div class="card-meta"><span class="card-number">02</span><span>Jul. 2025–Mar. 2026</span></div>
+              <h3>Liquid-Crystal Photoalignment and Optical Characterization</h3>
+              <p class="research-affiliation">Undergraduate Researcher · <a href="https://www.sustech.edu.cn/zh/faculties/luodan.html" target="_blank" rel="noreferrer">Prof. Dan Luo’s Group, SUSTech ↗</a></p>
+              <p class="card-summary">This project explores how patterned photoalignment can control liquid-crystal orientation and optical response, enabling angle-dependent grayscale modulation for multidimensional optical information encoding.</p>
+              <div class="contribution-block">
+                <p class="contribution-label">My contribution</p>
+                <p>Initially explored self-organized helical structures, then systematically varied SD1 concentration, DMD exposure time, and liquid-crystal layer thickness to analyze angle-dependent color, intensity, and transmittance for multidimensional encrypted displays.</p>
+              </div>
+              <div class="tag-row" aria-label="Research methods">
+                <span>SD1 photoalignment</span><span>DMD exposure</span><span>Polarized optical microscopy</span>
+              </div>
+            </div>
+            <div class="experiment-visuals">
+              <section class="experiment-panel" aria-labelledby="exposure-visual-title">
+                <div class="gallery-label" id="exposure-visual-title">01 · DMD exposure time and grayscale</div>
+                <div class="angle-comparison">
+                  <figure><img src="assets/img/research/photoalignment-45deg.jpg" alt="Patterned liquid-crystal sample observed at zero degrees" loading="lazy"><figcaption><strong>0°</strong></figcaption></figure>
+                  <figure><img src="assets/img/research/photoalignment-0deg.jpg" alt="Patterned liquid-crystal sample observed at forty-five degrees" loading="lazy"><figcaption><strong>45°</strong></figcaption></figure>
+                </div>
+                <p>Under DMD-patterned polarized-light exposure, longer exposure produced more ordered SD1 alignment and therefore a larger bright–dark contrast after liquid-crystal coating.</p>
+              </section>
+              <section class="experiment-panel" aria-labelledby="thickness-visual-title">
+                <div class="gallery-label" id="thickness-visual-title">02 · Spin-coated thickness and color</div>
+                <div class="sample-appearance-grid">
+                  <figure><img src="assets/img/research/soft-sample-yellow.jpg" alt="Yellow optical appearance of a spin-coated liquid-crystal sample" loading="lazy"><figcaption>Yellow response</figcaption></figure>
+                  <figure><img src="assets/img/research/soft-sample-green.jpg" alt="Cyan optical appearance of a spin-coated liquid-crystal sample" loading="lazy"><figcaption>Cyan response</figcaption></figure>
+                  <figure><img src="assets/img/research/soft-sample-blue.jpg" alt="Blue optical appearance of a spin-coated liquid-crystal sample" loading="lazy"><figcaption>Blue response</figcaption></figure>
+                </div>
+                <p>Changing the spin-coated liquid-crystal thickness shifted the observed interference color from yellow through cyan to blue.</p>
+              </section>
+              </div>
+          </article>
+
+          <article class="research-card">
+            <div class="card-main">
+              <div class="card-meta"><span class="card-number">03</span><span>Jul.–Aug. 2025</span></div>
+              <h3>Fabrication of a Photonic-Crystal Visuotactile Sensor</h3>
+              <p class="research-affiliation">Selected Research Project · <a href="https://www.sustech.edu.cn/zh/faculties/luodan.html" target="_blank" rel="noreferrer">Prof. Dan Luo’s Group, SUSTech ↗</a></p>
+              <p class="card-summary">This project develops an ultrathin photonic-crystal visuotactile sensor that converts contact-induced deformation into camera-readable optical information for tactile and force sensing.</p>
+              <div class="contribution-block"><p class="contribution-label">My contribution</p><p>Participated in the full fabrication process, including layered spin coating on glass, deposition of white tracking markers, sample encapsulation, and integration with a handheld camera-and-illumination setup.</p></div>
+              <div class="tag-row" aria-label="Research methods"><span>Spin coating</span><span>Tracking markers</span><span>Device integration</span></div>
+            </div>
+            <div class="workflow-placeholder" aria-label="Fabrication workflow illustration">
+              <div class="workflow-label">Fabrication workflow</div>
+              <ol class="workflow-steps">
+                <li><span class="step-index">01</span><div><strong>Glass substrate</strong><small>Base for the multilayer sample</small></div></li>
+                <li><span class="step-index">02</span><div><strong>Layered coating</strong><small>Elastomer and optical-response layers</small></div></li>
+                <li><span class="step-index">03</span><div><strong>Tracking markers</strong><small>Markers for deformation calculations</small></div></li>
+                <li><span class="step-index">04</span><div><strong>Encapsulation</strong><small>Sealing the fabricated sample</small></div></li>
+                <li><span class="step-index">05</span><div><strong>Camera / light integration</strong><small>Handheld optical sensing setup</small></div></li>
+              </ol>
+            </div>
+            <div class="prototype-gallery" aria-label="Representative team prototype photographs">
+              <div class="gallery-label">Project context · team prototype</div>
+              <div class="prototype-grid">
+                <figure><img src="assets/img/research/visuotactile-team-prototype-front.jpg" alt="Front view of a compact visuotactile sensor prototype beside a circular component" loading="lazy"><figcaption>Representative team prototype</figcaption></figure>
+                <figure><img src="assets/img/research/visuotactile-team-prototype-side.jpg" alt="Side view of a compact visuotactile sensor prototype with attached cable" loading="lazy"><figcaption>Representative team prototype · side view</figcaption></figure>
+              </div>
+            </div>
+          </article>
+        </section>
+
+        <section class="section output-section" id="publication" aria-labelledby="publication-title">
+          <div class="section-kicker">02 / Publication</div>
+          <div class="section-heading compact-heading">
+            <h2 id="publication-title">Publication</h2>
+            <span class="section-status">Review article · 2026</span>
+          </div>
+          <article class="publication-card">
+            <p class="publication-venue">Responsive Materials · 4(2) · e70042</p>
+            <h3>From 0D to 3D Liquid Crystal Elastomers Architectures: Fabrications and Applications</h3>
+            <p class="publication-authors">Mingxuan Liu, Zongxuan Wu, Jinquan Zheng, <strong>Yidan Zhu</strong>, Yanjun Liu, Lingling Ma, Wei Hu, Yan-Qing Lu, and Dan Luo.</p>
+            <a href="https://doi.org/10.1002/rpm2.70042" target="_blank" rel="noreferrer">View DOI <span aria-hidden="true">↗</span></a>
+          </article>
+        </section>
+
+        <section class="section education-section" id="education" aria-labelledby="education-title">
+          <div class="section-kicker">03 / Education &amp; awards</div>
+          <div class="education-grid">
+            <div>
+              <h2 id="education-title">Education</h2>
+              <div class="timeline-item">
+                <span class="timeline-date">2024–2028</span>
+                <div>
+                  <h3>Southern University of Science and Technology (SUSTech)</h3>
+                  <p>B.S. in Optoelectronic Information Science and Engineering</p>
+                  <p class="muted">Expected Jun. 2028 · GPA 3.94/4.00 · Major Rank 2/42</p>
+                  <p class="muted">Wolong Innovation Honors Program</p>
+                </div>
+              </div>
+              <div class="timeline-item"><span class="timeline-date">2021–2024</span><div><h3>Shenzhen Middle School</h3><p>Shenzhen, China</p></div></div>
+            </div>
+            <div class="awards-column">
+              <h2>Awards</h2>
+              <div class="award-list">
+                <article class="award-item award-item-compact"><h3>Outstanding Student Honor, <span>2025</span></h3></article>
+                <article class="award-item award-item-compact"><h3>Outstanding Student Scholarship, Second Prize, <span>2025</span></h3></article>
+                <article class="award-item"><h3>National Second Prize (Team)</h3><p>China Youth Science and Technology Innovation Competition, 2025</p><p class="award-project">An Interactive Domain-Specific Compiler for Signal-Processing Algorithm Mapping</p></article>
+                <article class="award-item"><h3>Third Prize (Team)</h3><p>SUSTech International Innovation and Entrepreneurship Competition, Oct. 2025</p><p class="award-project">Ultrathin, High-Precision Photonic-Crystal Visuotactile Sensor</p></article>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section beyond-section" id="beyond" aria-labelledby="beyond-title">
+          <div class="section-kicker">04 / Beyond research</div>
+          <div class="beyond-layout">
+            <div class="beyond-copy">
+              <h2 id="beyond-title">Outside the lab</h2>
+              <p>Outside the lab, I enjoy hiking, traveling, and exploring natural landscapes—from mountain trails to open water.</p>
+              <p class="beyond-note">These experiences give me space to observe, reset, and stay curious about unfamiliar environments.</p>
+            </div>
+            <div class="beyond-gallery" aria-label="Outdoor photographs">
+              <figure class="beyond-photo beyond-photo-main">
+                <img src="assets/img/beyond/mountain-portrait.jpg" alt="Yidan Zhu in a mountain landscape" loading="lazy">
+                <figcaption>Mountain journeys</figcaption>
+              </figure>
+              <figure class="beyond-photo beyond-photo-secondary">
+                <img src="assets/img/beyond/snorkeling.jpg" alt="Yidan Zhu preparing to snorkel from a boat" loading="lazy">
+                <figcaption>Open water</figcaption>
+              </figure>
+              <figure class="beyond-photo beyond-photo-secondary">
+                <img src="assets/img/beyond/hiking.jpg" alt="Yidan Zhu hiking near a mountain waterfall" loading="lazy">
+                <figcaption>Hiking trails</figcaption>
+              </figure>
+            </div>
+          </div>
+        </section>
+
+        <section class="section contact-section" id="contact" aria-labelledby="contact-title">
+          <div class="section-kicker">05 / Contact</div>
+          <div class="contact-copy">
+            <h2 id="contact-title">Let’s connect</h2>
+            <p>For research conversations, exchange opportunities, or questions about my work, please feel free to get in touch.</p>
+          </div>
+          <div class="contact-grid">
+            <div class="contact-item">
+              <span class="contact-label">Email</span>
+              <a class="contact-value" href="mailto:12412351@mail.sustech.edu.cn">12412351@mail.sustech.edu.cn</a>
+            </div>
+            <div class="contact-item">
+              <span class="contact-label">CV</span>
+              <a class="contact-value" href="assets/cv/Yidan_Zhu_CV.pdf" target="_blank">View PDF ↗</a>
+            </div>
+          </div>
+        </section>
+
+        <footer class="site-footer">
+          <p>© 2026 Yidan Zhu.</p>
+          <p>Inspired by <a href="https://github.com/wzsyyh/luka-homepage-template" rel="noreferrer">Luka Homepage Template by Yuheng Yang</a>.</p>
+        </footer>
+      </div>
+    </main>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
