@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="760" viewBox="0 0 1600 760" role="img" aria-labelledby="title desc">
+  <title id="title">Conceptual schematic of dielectric anisotropy in a photonic-crystal slab</title>
+  <desc id="desc">A generic periodic slab and a schematic band crossing, with no simulation data or design parameters.</desc>
+  <defs>
+    <pattern id="triangular-lattice" width="140" height="120" patternUnits="userSpaceOnUse">
+      <polygon points="35,16 12,56 58,56" fill="#ffffff" stroke="#7183a5" stroke-width="2"/>
+      <polygon points="105,62 82,22 128,22" fill="#ffffff" stroke="#7183a5" stroke-width="2"/>
+      <polygon points="35,76 12,116 58,116" fill="#ffffff" stroke="#7183a5" stroke-width="2"/>
+      <polygon points="105,118 82,78 128,78" fill="#ffffff" stroke="#7183a5" stroke-width="2"/>
+    </pattern>
+    <marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,5 L0,10 z" fill="#294a8a"/>
+    </marker>
+    <marker id="arrow-cyan" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2f91a8"/>
+    </marker>
+    <clipPath id="slab-clip">
+      <rect x="110" y="220" width="610" height="430" rx="4"/>
+    </clipPath>
+  </defs>
+
+  <rect width="1600" height="900" fill="#fbfcfe"/>
+  <text x="80" y="78" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#202634">Dielectric anisotropy in a photonic-crystal slab</text>
+
+  <line x1="800" y1="140" x2="800" y2="725" stroke="#d8dee8" stroke-width="2"/>
+
+  <text x="110" y="184" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#34405a">(a) Generic periodic model</text>
+  <rect x="110" y="220" width="610" height="430" rx="4" fill="#cbd5e5" stroke="#354765" stroke-width="3"/>
+  <rect x="110" y="220" width="610" height="430" fill="url(#triangular-lattice)" clip-path="url(#slab-clip)"/>
+  <rect x="110" y="220" width="610" height="430" rx="4" fill="none" stroke="#354765" stroke-width="3"/>
+
+  <line x1="190" y1="690" x2="340" y2="690" stroke="#294a8a" stroke-width="5" marker-end="url(#arrow-blue)"/>
+  <line x1="190" y1="690" x2="190" y2="570" stroke="#2f91a8" stroke-width="5" marker-end="url(#arrow-cyan)"/>
+  <text x="350" y="698" font-family="Arial, Helvetica, sans-serif" font-size="22" font-style="italic" fill="#294a8a">x</text>
+  <text x="178" y="555" font-family="Arial, Helvetica, sans-serif" font-size="22" font-style="italic" fill="#2f91a8">y</text>
+  <text x="390" y="696" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#5e687b">anisotropic dielectric response</text>
+
+  <text x="875" y="184" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#34405a">(b) Schematic band crossing</text>
+  <line x1="930" y1="655" x2="1470" y2="655" stroke="#293348" stroke-width="3" marker-end="url(#arrow-blue)"/>
+  <line x1="930" y1="655" x2="930" y2="235" stroke="#293348" stroke-width="3" marker-end="url(#arrow-blue)"/>
+  <text x="1130" y="713" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#3d4658">normalized wavevector</text>
+  <text transform="translate(866 525) rotate(-90)" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#3d4658">normalized frequency</text>
+
+  <path d="M970 575 C1100 530 1190 462 1270 420 C1350 378 1410 300 1450 250" fill="none" stroke="#294a8a" stroke-width="8" stroke-linecap="round"/>
+  <path d="M970 265 C1090 310 1185 370 1270 420 C1355 470 1415 540 1450 590" fill="none" stroke="#2f91a8" stroke-width="8" stroke-linecap="round"/>
+  <line x1="1270" y1="250" x2="1270" y2="655" stroke="#a8b2c2" stroke-width="2" stroke-dasharray="8 8"/>
+  <circle cx="1270" cy="420" r="10" fill="#ffffff" stroke="#202634" stroke-width="4"/>
+  <text x="1292" y="408" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#515c70">candidate crossing</text>
+
+</svg>
