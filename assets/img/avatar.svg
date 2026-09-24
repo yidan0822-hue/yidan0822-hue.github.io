@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-labelledby="title desc">
+  <title id="title">YZ monogram</title>
+  <desc id="desc">A warm blue and peach abstract monogram for Yidan Zhu.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e4e7ff"/>
+      <stop offset="0.55" stop-color="#b9c0ff"/>
+      <stop offset="1" stop-color="#f2b08c"/>
+    </linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="12"/></filter>
+  </defs>
+  <rect width="240" height="240" rx="56" fill="url(#bg)"/>
+  <circle cx="180" cy="55" r="56" fill="#f7cfb9" opacity=".7" filter="url(#blur)"/>
+  <circle cx="45" cy="190" r="64" fill="#7a83d3" opacity=".35" filter="url(#blur)"/>
+  <path d="M66 72h34c28 0 45 15 45 39 0 25-17 40-45 40H66V72Zm27 22v35h8c12 0 19-6 19-18s-7-17-19-17h-8Zm53 57 21-79h25l-22 79h-24Zm-5-79h25l-36 79h-26l37-79Z" fill="#1f265c" opacity=".86"/>
+</svg>
